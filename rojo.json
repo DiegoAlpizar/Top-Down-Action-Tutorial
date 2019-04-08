@@ -1,5 +1,22 @@
 {
   "name": "Top Down Action",
   "servePort": 8000,
-  "partitions": {}
+  "partitions": {
+    "ServerScriptService": {
+      "path": "src/ServerScriptService",
+      "target": "ServerScriptService"
+    },
+    "RobotScripts": {
+      "path": "src/ServerStorage/RobotScripts",
+      "target": "ServerStorage.RobotScripts"
+    },
+    "Scripts": {
+      "path": "src/StarterPack/Pie Launcher/Scripts",
+      "target": "StarterPack.Pie Launcher.Scripts"
+    },
+    "StarterPlayerScripts": {
+      "path": "src/StarterPlayer/StarterPlayerScripts",
+      "target": "StarterPlayer.StarterPlayerScripts"
+    }
+  }
 }
